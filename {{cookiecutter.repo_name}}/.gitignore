@@ -1,0 +1,8 @@
+*.egg-info
+*.pyc
+dist/*
+.tox
+.coverage
+.svn
+.git
+htmlcov

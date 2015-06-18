@@ -1,0 +1,7 @@
+# Files / packages to ignore during coverage check
+
+[run]
+omit = tests/*
+       conftest.py
+       {{cookiecutter.repo_name}}/wsgi.py
+
