@@ -12,6 +12,7 @@ import sys
 install_requires = [
     "Django==1.8.2",
     "raven==5.2.0",
+    "psycopg2",
 ]
 
 dev_requires = [
@@ -19,6 +20,8 @@ dev_requires = [
 ]
 
 test_requires = [
+    "factory_boy",
+    "fake-factory",
     "pytest",
     "pytest-cov",
     "pytest-django",
@@ -26,7 +29,7 @@ test_requires = [
 
 
 setup(
-    name="{{cookiecutter.project_name}}",
+    name="linovia-{{cookiecutter.project_name}}",
     version={{cookiecutter.project_name}}.__version__,
     author="{{cookiecutter.author_name}}",
     author_email="{{cookiecutter.author_email}}",
